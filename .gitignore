@@ -1,6 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
 .env
 session.json
 cookies.json
-.pytest_cache/
-__pycache__/
-*.pyc
