@@ -37,5 +37,4 @@ def created_lesson(auth_headers):
     lesson_id = json_data["data"]["payload"]["id"]
     start_at = json_data["data"]["startAt"]
     
-    # Возвращаем словарь с двумя полями
     return {"id": lesson_id, "startAt": start_at}
